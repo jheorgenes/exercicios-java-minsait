@@ -1,0 +1,14 @@
+2. Testes Unitários
+
+Descreva a importância dos testes unitários no desenvolvimento de software e escreva um teste unitário utilizando JUnit para a classe CacheLRU implementada anteriormente.
+-----------------------------------------------------------------------------------------
+
+R: Garante que os métodos fazem o que deveriam fazer.
+Pode mudar o código com segurança, porque os testes vão avisar se algo quebrar.
+Testes mostram como a classe deve ser usada na prática.
+Ajuda a detectar problemas antes de subir pro ambiente de produção.
+Ajuda quem for dar manutenção no código entender o comportamento esperado.
+
+-----------------------------------------------------------------------------------------
+Para acessar o teste unitário da classe CacheLRU, basta executar a classe TestCacheLRU.
+Arquivo está no diretório 'src/test/java/br/com/exercicios_minsait/exercicio8/CacheLRUTest.java'

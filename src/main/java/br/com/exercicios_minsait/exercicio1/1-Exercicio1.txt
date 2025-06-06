@@ -1,0 +1,10 @@
+1. Implementação de Classe e Algoritmo
+
+Escreva uma classe chamada CacheLRU que implementa uma cache do tipo Least Recently Used (LRU). A classe deve ter os seguintes métodos:
+
+- put(K key, V value): Insere um par chave-valor na cache.
+- get(K key): Retorna o valor associado à chave, se presente. Caso contrário, retorna null.
+- remove(K key): Remove a chave e seu valor associado da cache.
+- size(): Retorna o número atual de elementos na cache.
+
+A classe deve ter um limite máximo de capacidade, que é definido no momento da criação da instância. Se a cache estiver cheia e for necessário adicionar um novo elemento, o elemento menos recentemente usado deve ser removido.

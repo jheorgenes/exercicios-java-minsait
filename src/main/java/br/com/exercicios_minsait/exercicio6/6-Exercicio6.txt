@@ -1,0 +1,27 @@
+2. Refatoração de Código
+
+Você recebeu o seguinte código legado:
+
+java
+public class Order {
+    private List<Item> items;
+
+    public Order() {
+        items = new ArrayList<>();
+    }
+
+    public void addItem(Item item) {
+        items.add(item);
+    }
+
+    public double calculateTotal() {
+        double total = 0;
+        for (Item item : items) {
+            total += item.getPrice();
+        }
+        return total;
+    }
+}
+
+
+Refatore este código para seguir os princípios do SOLID.

@@ -1,0 +1,3 @@
+2. Melhoria de Performance
+
+Dado um sistema Java que está apresentando problemas de performance, quais são os passos que você seguiria para identificar e resolver os gargalos?

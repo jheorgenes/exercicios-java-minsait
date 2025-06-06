@@ -1,0 +1,40 @@
+Comparação de Maven e Gradle e suas principais diferenças:
+
+Linguagem de configuração:
+Maven: XML (pom.xml)
+Gradle: DSL Groovy/Kotlin (build.gradle)
+
+Curva de aprendizado:
+Maven: Mais simples, mais verboso
+Gradle: Mais flexível, mas exige mais aprendizado
+
+Velocidade de build:
+Maven: Mais lento (sem cache por padrão)
+Gradle: Mais rápido (build cache + incremental)
+
+Customização:
+Maven: Limitada e verbosa
+Gradle: Altamente customizável
+
+Plugins:
+Maven: Muitos prontos, padrão de mercado
+Gradle: Enorme quantidade, mas nem sempre tão maduros
+
+Mensagens de erro/logs:
+Maven: Mais legíveis
+Gradle: Às vezes confusas ou verbosas
+
+Integração com Android:
+Maven: Suporte limitado
+Gradle: Oficialmente suportado
+
+Quando Usar Maven?
+- Projeto corporativo tradicional, com times que já conhecem Maven.
+- Se precisar de algo mais previsível e padronizado.
+- Projetos com CI/CD legado baseado em Jenkins, SonarQube, etc.
+
+Quando Usar Gradle?
+- Projetos modernos com foco em performance (builds grandes, microserviços).
+- Precisa de flexibilidade, como scripts dinâmicos de build, múltiplos módulos, geração de código.
+- Desenvolvendo Android
+- Precisa de integração fácil com Kotlin DSL e builds otimizados com cache local/remoto.

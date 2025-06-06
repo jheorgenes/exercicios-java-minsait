@@ -1,0 +1,4 @@
+Projeto de Sistema
+
+Você está projetando um sistema de gestão de biblioteca. O sistema deve permitir o cadastro de livros, autores e leitores, além de controlar o empréstimo e devolução de livros.
+Desenhe um diagrama de classes para este sistema e explique como as classes interagem entre si.

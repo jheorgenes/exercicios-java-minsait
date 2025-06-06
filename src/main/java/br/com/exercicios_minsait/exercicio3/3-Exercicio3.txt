@@ -1,0 +1,4 @@
+3. Multithreading
+
+Implemente um programa que simule um banco com múltiplas contas e suporte transferências simultâneas entre contas.
+Garanta que o programa lide corretamente com concorrência, evitando condições de corrida e garantindo a consistência dos saldos das contas.

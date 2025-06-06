@@ -1,0 +1,3 @@
+1. Debugging
+
+Explique como você aborda o processo de debugging em uma aplicação Java complexa. Quais ferramentas e técnicas você utiliza?

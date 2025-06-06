@@ -1,0 +1,33 @@
+
+A depuração (debugging) é uma habilidade crucial para qualquer desenvolvedor.
+Uma abordagem sistemática e o uso de ferramentas adequadas são essenciais para identificar e resolver problemas de forma eficiente.
+
+Breakpoints e depuração:
+Se estou usando IntelliJ (preferido), abro a classe suspeita, clico na margem e coloco um breakpoint.
+Depois:
+- Run > Debug ou só Shift + F9.
+- Quando para no breakpoint, uso:
+    (F10) – pular pra próxima linha.
+    (F11) – entrar dentro do método.
+    (Shift + F11) – voltar o método anterior.
+    (Alt + F8) – inspecionar valores na hora.
+- No Eclipse, é quase a mesma coisa:
+    (F6) - Step Over
+    (F5) - Step Into
+    (Ctrl + Shift + I) = inspeção rápida
+
+Testes para Depuração e Debugging:
+- As vezes só é necessário usar um teste unitário com JUnit para identificar problemas de depuração específicos.
+
+Logs:
+- Sei que é recomendado trabalhar com SLF4J com Logback ou Log4j, que fornecem logs mais robustos e flexíveis.
+Ainda não tive a oportunidade de utilizar essas libs, mas estou constantemente aprendendo.
+Eu sei como exemplificar a utilização dos logs:
+
+log.info("Iniciando processamento do pedido {}", pedido.getId());
+log.debug("Dados do pedido: {}", pedido);
+log.warn("Pedido {} com valor acima do limite", pedido.getId());
+log.error("Erro ao processar pedido {}", pedido.getId(), e);
+
+Em produção, normalmente é utilizado Painéis tipo ELK (Elasticsearch, Logstash, Kibana) ou Grafana Loki. (Ainda não tive oportunidade de utilizá-los)
+Ou diretamente no Terminal do Servidor.

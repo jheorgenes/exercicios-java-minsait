@@ -1,0 +1,27 @@
+1. Diagnóstico Inicial
+- Reproduzir o cenário de lentidão.
+- Analisar logs, relatórios de erro.
+- Identificar se o problema está no backend, banco de dados, rede ou cliente.
+
+2. Ferramentas de Monitoramento
+- Utilizar ferramentas como JVisualVM, JProfiler, YourKit ou Flight Recorder.
+- Coletar informações sobre consumo de CPU, uso de memória, garbage collection, número de threads e chamadas lentas.
+
+3. Análise de Código e Infraestrutura
+- Verificar algoritmos e estruturas de dados mal utilizados.
+- Avaliar consultas SQL.
+- Garantir uso adequado de índices em banco de dados.
+- Validar configurações de conexão (pool size, timeouts, etc.).
+
+4. Aplicar Soluções
+- Otimização de consultas e uso de cache.
+- Redução de carga em operações síncronas com paralelismo ou processamento assíncrono.
+- Aplicação de compressão de payloads e uso de DTOs.
+
+5. Testes e Validação
+- Realizar testes de carga (JMeter, Gatling).
+- Comparar métricas antes e depois das alterações.
+
+6. Monitoramento Contínuo
+- Integrar com Prometheus/Grafana, Elastic APM ou New Relic.
+- Definir alertas para detectar novos gargalos rapidamente.

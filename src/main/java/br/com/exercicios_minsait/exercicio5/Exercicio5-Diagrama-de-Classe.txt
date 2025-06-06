@@ -1,0 +1,26 @@
+Explicação de como as classes interagem entre si:
+
+Entidade: Livro
+
+Representa um livro disponível na biblioteca.
+Pode ter múltiplos autores.
+Contém métodos como 'emprestar()' e 'devolver()' para alterar disponibilidade do Livro.
+
+Entidade: Autor
+
+Representa o autor de um ou mais livros.
+Possui apenas atributos básicos.
+Relacionamento N para N com Livro.
+
+Entidade: Leitor
+Pessoa cadastrada para realizar os empréstimos.
+Pode ter vários empréstimos ao longo do tempo.
+
+Entidade: Emprestimo
+Representa uma operação de retirada de um livro por um leitor.
+Armazena as datas de empréstimo, devolução prevista e devolução real.
+Possui métodos como estaAtrasado() para verificar se o livro foi devolvido fora do prazo.
+
+-----------------------------------------------------------------------------------------
+Diretório aonde está localizado a imagem do diagrama: docs/exercicio5/exercicio5-print-starUML.png
+OBS: Fiz no programa starUML e exportei para png. Também exportei o diagrama em .mdj, deixando no mesmo diretório

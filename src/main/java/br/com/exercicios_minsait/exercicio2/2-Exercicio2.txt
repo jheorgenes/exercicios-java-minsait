@@ -1,0 +1,3 @@
+2. Manipulação de Arquivos
+
+Escreva um programa em Java que leia um arquivo texto chamado input.txt, remova todas as linhas em branco e escreva o conteúdo restante em um novo arquivo chamado output.txt.
